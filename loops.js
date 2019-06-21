@@ -10,3 +10,14 @@ function whileLoop(num){
   while (num > 0){console.log (--num)};
   if (num === 0) {return 'done'};
 }
+
+function doWhileLoop(num){
+  function incrementVariable(){
+    i += 1;
+    return i;
+  }
+
+  do {
+    console.log('I run once regardless.');
+  } while (incrementVariable() < num);
+}

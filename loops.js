@@ -12,6 +12,7 @@ function whileLoop(num){
 }
 
 function doWhileLoop(num){
+  var i = 0;
   function incrementVariable(){
     i += 1;
     return i;

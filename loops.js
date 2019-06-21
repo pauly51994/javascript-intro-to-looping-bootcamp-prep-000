@@ -7,6 +7,6 @@ function forLoop(array) {
 }
 
 function whileLoop(num){
-  while (num > 0){console.log (--num)};
+  while (num > 0){--num};
   if (num === 0) {return 'done'};
 }
